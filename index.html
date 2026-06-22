@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi catalogo de pedicure</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+   <!-- Encabezado / Contacto -->
+    <header class="header">
+        <h1>Ayleen Ramirez</h1>
+        <h2>Nails by Ayleen</h2>
+        <p>Dándole estilo y color a tus uñas</p>
+        <p class="subtitle"></p>
+        <div class="contact-info">
+            <p>📍 <strong>Dirección:</strong> Batahola sur, casa #689, Del colegio Adrian Rojas 1/2 abajo 1 al sur</p>
+            <p>📞 <strong>Teléfono / WhatsApp:</strong> +505 8430 7708</p>
+           
+        </div>
+    </header>
+
+    <!-- Contenedor Principal -->
+    <main class="container">
+        
+        <!-- Sección de Trabajos (Carrusel) -->
+        <section class="gallery-section">
+            <h2>Mis Trabajos</h2>
+            <div class="carousel">
+                <div class="carousel-images">
+                    <!-- Cambia 'foto1.jpg', etc., por las rutas de tus imágenes -->
+                    <img src="jpg (1).jpeg" alt="Pedicure Spa" class="active">
+                    <img src="jpg (2).jpeg" alt="Diseño de Uñas">
+                    <img src="jpg (3).jpeg" alt="Pedicure Clínico">
+                    <img src="jpg (4).jpeg" alt="Pedicure Spa" class="active">
+                    <img src="jpg (5).jpeg" alt="Pedicure Spa" class="active">
+                    <img src="jpg (6).jpeg" alt="Pedicure Spa" class="active">
+                    <img src="jpg (7).jpeg" alt="Pedicure Spa" class="active">
+                </div>
+                <!-- Botones Manuales -->
+                <button class="prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next-btn" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </section>
+
+        <!-- Sección de Precios -->
+        <section class="services-section">
+            <h2>Servicios y Precios</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <span>Preparación de uñas</span>
+                    <span class="price">C$130.00</span>
+                </div>
+                <div class="service-item">
+                    <span>Shelac / Gel Semipermanente</span>
+                    <span class="price">C$200.00</span>
+                </div>
+                <div class="service-item">
+                    <span>Soft gel + color </span>
+                    <span class="price">C$300.00</span>
+                </div>
+                <div class="service-item">
+                    <span> Building gel + color (Opcional)</span>
+                    <span class="price">C$450.00</span>
+                </div>
+                <div class="service-item">
+                    <span>Acrílicas </span>
+                    <span class="price">C$500.00</span>
+                </div>
+            </div>
+        </main>
+      <main class="container">
+                <!--Sección de tamaños o extención de uñas -->
+               <section class="services-section">
+                <h2>Tamaños o extención de uñas</h2>
+                 <div class="services-list">
+                   <div class="service-item">
+                 <span>Medianas</span>
+                 <span class="price">C$20.00</span>
+                 </div>
+                  <div class="service-item">
+                <span>Largas</span>
+                <span class="price">C$40.00</span>
+                </div>
+                 </div>
+                </main>
+                  <main class="container">
+                <!--Sección de precio de extras-->
+                 <section class="services-section">
+                <h2>Extras</h2>
+                <div class="services-list">
+                <div class="service-item">
+                <span>Diseños</span>
+                <span class="price">C$50.00</span>
+                </div>
+                <div class="service-item">
+                <span>Efectos</span>
+                <span class="price">C$30.00</span>  
+                </div>
+                <div class="service-item">
+                <span>Pedrería</span>
+                <span class="price">C$30.00</span>  
+                </div>
+                <div class="service-item">
+                 </div>
+                </main>
+                 <section class="services-section">
+                <h2>Horarios de atención</h2>
+              <div style="text-align: center;"
+              <p>Martes a viernes</p>
+              <p>4:00 p.m a 6:30 p.m</p>
+              <p>Sabados y Domingos</p>
+              <p>4:00 p.m a 7:30 p.m</p>
+              <p>Lunes</p>
+              <p>8:00 a.m a 7:30 p.m</p>
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
